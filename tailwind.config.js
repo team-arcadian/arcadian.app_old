@@ -6,7 +6,11 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                sans: [...font.sans],
+                title: ['Yeseva One', ...font.sans],
+                sans: ['Josefin Sans', ...font.sans],
+            },
+            height: {
+                "1/2": "50%",
             },
         },
     },
